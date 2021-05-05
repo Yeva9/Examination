@@ -9,13 +9,9 @@ namespace Exam
         public string Surname { get; private set; }
         public Subject Subject { get; private set; }
 
-        public Lecturer(string surname, Subject subject)
-        {
+        public Lecturer(string surname, Subject subject) {
             Surname = surname;
             Subject = subject;
         }
-            
-
     }
-
 }
